@@ -1,4 +1,4 @@
-# 🎯 Gesture Control System
+# Virtual Mouse
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-green.svg)](https://opencv.org)
