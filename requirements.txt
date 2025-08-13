@@ -3,3 +3,4 @@ mediapipe
 pycaw
 numpy
 autopy
+comtypes

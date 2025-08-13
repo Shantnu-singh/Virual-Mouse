@@ -8,7 +8,7 @@
 
 > **A sophisticated computer vision-based gesture control system that enables hands-free interaction with your computer through real-time hand tracking and gesture recognition.**
 
-![Gesture Control Demo](./assets/demo.gif)
+![Gesture Control Demo](./assets/demo.mp4)
 
 ## 🌟 Features
 
