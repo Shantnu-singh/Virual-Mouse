@@ -52,7 +52,7 @@
       <sub><b>Hand Landmark Detection</b></sub>
     </td>
     <td align="center">
-      <img src="./assets/gesture_recognition.png" width="300" alt="Gesture Recognition"/>
+      <img src="./assets/assets/demo.gif" width="300" alt="Gesture Recognition"/>
       <br/>
       <sub><b>Gesture Recognition</b></sub>
     </td>
