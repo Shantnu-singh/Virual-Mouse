@@ -12,12 +12,6 @@
 
 ## 🌟 Features
 
-### 🎵 Volume Control
-- **Real-time volume adjustment** using thumb and index finger distance
-- **Visual feedback** with dynamic volume bar and percentage display
-- **Smooth interpolation** for precise control
-- **Visual indicators** for minimum and maximum volume levels
-
 ### 🖱️ Virtual Mouse
 - **Cursor movement** using index finger tracking
 - **Click functionality** with thumb-index finger pinch gesture
@@ -74,7 +68,7 @@ python --version
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/gesture-control-system.git
+   git clone https://github.com/Shantnu-singh/Virual-Mouse.git
    cd gesture-control-system
    ```
 
@@ -94,16 +88,6 @@ python --version
    python -c "import cv2; print('OpenCV installed successfully')"
    ```
 
-### Dependencies
-
-```txt
-opencv-python>=4.5.0
-mediapipe>=0.8.0
-numpy>=1.21.0
-pycaw>=20220416
-comtypes>=1.1.0
-autopy>=4.0.0
-```
 
 ## 💻 Usage
 
@@ -112,7 +96,7 @@ autopy>=4.0.0
 Launch the volume control application:
 
 ```bash
-python "Gesture Control .py"
+python "virtual_mouse.py"
 ```
 
 **Gestures:**
@@ -126,7 +110,7 @@ python "Gesture Control .py"
 Launch the virtual mouse application:
 
 ```bash
-python virtual_mouse.py
+python Gesture_Control.py
 ```
 
 **Gestures:**
@@ -197,12 +181,7 @@ smooth = 8    # Higher = smoother movement
 Camera Input → MediaPipe Processing → Landmark Detection → Gesture Recognition → Action Execution
 ```
 
-### 2. Volume Control Algorithm
-- Calculates euclidean distance between thumb tip and index finger tip
-- Maps distance to volume range using linear interpolation
-- Applies volume changes through Windows Audio API (pycaw)
-
-### 3. Virtual Mouse Logic
+### 2. Virtual Mouse Logic
 - Tracks index finger position for cursor movement
 - Implements smoothing algorithm for stable cursor control
 - Detects pinch gesture for click functionality
@@ -289,14 +268,6 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - Include type hints where appropriate
 - Write unit tests for new features
 
-## 📈 Roadmap
-
-- [ ] **Multi-gesture support** - Add more gesture types
-- [ ] **Cross-platform compatibility** - macOS and Linux audio control
-- [ ] **GUI configuration** - Settings panel for easy customization
-- [ ] **Machine learning integration** - Custom gesture training
-- [ ] **Mobile app integration** - Remote gesture control
-- [ ] **Performance analytics** - Real-time performance metrics
 
 ## 📄 License
 
@@ -311,14 +282,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📧 **Email**: support@gesturecontrol.dev
-- 💬 **Discord**: [Join our community](https://discord.gg/gesture-control)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/gesture-control-system/issues)
-- 📖 **Documentation**: [Full Documentation](https://docs.gesturecontrol.dev)
-
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/gesture-control-system&type=Date)](https://star-history.com/#yourusername/gesture-control-system&Date)
+- 📧 **Email**: singhshatnu2001@gmail.com
+- 🐛 **Issues**: [GitHub Issues](https://github.com/Shantnu-singh/Virual-Mouse/issues)
+- 📖 **Documentation**: [Full Documentation](https://github.com/Shantnu-singh/Virual-Mouse/blob/main/docs/API.md)
 
 ---
 
